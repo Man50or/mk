@@ -16,5 +16,6 @@ cd mk
 
 python2 mk.py
 
-Username  khan
-Password  khan
+Username  khan Or Khan
+
+Password  khan Or Khan
