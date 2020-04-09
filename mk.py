@@ -104,8 +104,8 @@ jalan("\033[1;97m    OK")
 jalan("\033[1;97m   OK .")
 print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
 
-CorrectUsername = "Khan"
-CorrectPassword = "Khan"
+CorrectUsername = "khan"
+CorrectPassword = "khan"
 
 loop = 'true'
 while (loop == 'true'):
