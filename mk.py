@@ -98,10 +98,10 @@ print  """
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 jalan('              \033[1;91mREAD CAREFULLY:')
 jalan("\033[1;97m   It's not in Commands Control to get a   ")
-jalan('\033[1;97m   New or Old Account,It Totally Depends   ')
-jalan('\033[1;97m   on Friends List And the Accounts that   ')
-jalan("\033[1;97m   goes to Checkpoint is due to Facebook ")
-jalan("\033[1;97m    Security,That's not Commands Issue.")
+jalan('\033[1;97m   New or Old Account,  ')
+jalan('\033[1;97m    ok ')
+jalan("\033[1;97m    OK")
+jalan("\033[1;97m   OK .")
 print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
 
 CorrectUsername = "Khan"
