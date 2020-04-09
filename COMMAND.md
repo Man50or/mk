@@ -14,4 +14,7 @@ git clone https://github.com/Man50or/mk
 
 cd mk
 
-10. python2 mk.py
+python2 mk.py
+
+Username  Khan
+Password  Khan
