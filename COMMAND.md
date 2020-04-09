@@ -10,8 +10,8 @@ pkg install git
 
 pip2 install requests && mechanize
 
-git clone https://github.com/Man50or
+git clone https://github.com/Man50or/mk
 
-cd Man50or
+cd mk
 
-10. python2 Man50or.py
+10. python2 mk.py
