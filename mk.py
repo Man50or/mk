@@ -103,15 +103,7 @@ print  """
 jalan('              \033[1;91mREAD CAREFULLY:')
 jalan("\033[1;97m Tool Username And Password  ")
 jalan('\033[1;97m    Username Khan Password Khan  K is Big Letter ')
-jalan('\033[1;97m██ 39%  ')
-jalan("\033[1;97m ███ 49%  ")
-jalan("\033[1;97m  ████ 76%  ")
-jalan("\033[1;97m   █████ 89%  ")
 jalan("\033[1;97m    ██████ 100%  ")
-
-
-
-
 
 print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
 
